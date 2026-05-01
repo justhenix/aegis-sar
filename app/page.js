@@ -48,7 +48,7 @@ function StatusBar({ mode, status }) {
   return (
     <header
       id="status-bar"
-      className="flex items-center justify-between px-4 py-2 border-b border-zinc-800 select-none"
+      className="flex flex-col sm:flex-row sm:items-center justify-between px-4 py-3 sm:py-2 gap-3 sm:gap-0 border-b border-zinc-800 select-none"
       style={{ background: "var(--bg-panel)" }}
     >
       {/* Left: Brand */}
@@ -63,7 +63,7 @@ function StatusBar({ mode, status }) {
       </div>
 
       {/* Right: Indicators */}
-      <div className="flex items-center gap-5 text-xs font-mono tracking-wide">
+      <div className="flex flex-wrap items-center gap-3 sm:gap-5 text-[10px] sm:text-xs font-mono tracking-wide">
         <StatusPill label="MISSION" value={status} />
         <StatusPill label="FEED" value="DRONE-01" />
         <StatusPill
