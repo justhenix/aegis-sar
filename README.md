@@ -40,6 +40,7 @@ Upload an image. Get severity, confidence, and a recommended action back immedia
 | AI Backend       | FastAPI, Python                           |
 | Vision Model     | Qwen-VL / Llama 3.2 Vision               |
 | GPU Infra        | AMD MI300X, ROCm, AMD Developer Cloud     |
+| Database         | SQlite for MVP                           |
 
 ## What it detects
 
