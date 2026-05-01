@@ -42,10 +42,6 @@ yarn-error.log*
 next-env.d.ts
 
 # AI agent files if used
-agent.md
-AGENT.md
-AGENTS.md
-.agent.md
 CLAUDE.md
 .codex/
 .cursor/
