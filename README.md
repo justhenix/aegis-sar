@@ -12,7 +12,7 @@ Aegis-SAR is a hardware-agnostic, cloud-based intelligence layer for search-and-
 ### Infrastructure & Stack
 * **Hardware:** Optimized for AMD Instinct MI300X GPUs.
 * **Backend:** Python-based FastAPI for model orchestration and low-latency processing.
-* **Frontend:** TALL Stack (Tailwind CSS, Alpine.js, Laravel, Livewire) for the command and monitoring dashboard.
+* **Frontend:** Next JS for the command and monitoring dashboard.
 * **Protocol:** Cloud-linked video telemetry for real-time anomaly reporting.
 
 ## Key Features
